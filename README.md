@@ -29,3 +29,5 @@ cd到kernel下面执行 sh fight.sh
 输出 kernel.img 就能用了
 ## 关于菊花如何解锁selinux
 /kernel/arch/arm64/configs/merge_kirin970_defconfig中找到并且设置CONFIG_SECURITY_SELINUX_DEVELOP=y
+
+同时慎用cmdline那个方法停用selinux，菊花会让你开不开机的。
