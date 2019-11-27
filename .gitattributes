@@ -1,2 +1,3 @@
 *.c linguist-language=C
 *.h linguist-language=C
+#不挣扎了，不显示语言是因为超出了分析的最大限制
