@@ -31,3 +31,5 @@ cd到kernel下面执行 sh fight.sh
 /kernel/arch/arm64/configs/merge_kirin970_defconfig中找到并且设置CONFIG_SECURITY_SELINUX_DEVELOP=y
 
 同时慎用cmdline那个方法停用selinux，菊花会让你开不开机的。
+## p.s.
+我就搬运了这个玩意才知道原来gayhub的语言识别是有数量限制的，太多了不让你识别
